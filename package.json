@@ -1,0 +1,33 @@
+{
+  "name": "sturdy-stitch",
+  "version": "1.0.0",
+  "description": "",
+  "main": "sturdy-stitch.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "./node_modules/.bin/eslint service-locator.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/StevenACoffman/sturdy-stitch.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/StevenACoffman/sturdy-stitch/issues"
+  },
+  "homepage": "https://github.com/StevenACoffman/sturdy-stitch#readme",
+  "dependencies": {
+    "express": "^4.14.0",
+    "http-proxy-middleware": "^0.17.2"
+  },
+  "devDependencies": {
+    "eslint": "^3.9.1",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-promise": "^3.3.1",
+    "eslint-plugin-react": "^6.6.0",
+    "eslint-plugin-standard": "^2.0.1"
+  },
+  "eslintConfig": ".eslintrc.json"
+}

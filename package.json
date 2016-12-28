@@ -1,11 +1,12 @@
 {
   "name": "sturdy-stitch",
   "version": "1.0.0",
-  "description": "",
+  "description": "Routing proxy for hybrid local and site apps",
   "main": "sturdy-stitch.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "lint": "./node_modules/.bin/eslint --fix sturdy-stitch.js; exit 0"
+    "lint": "./node_modules/.bin/eslint --fix sturdy-stitch.js; exit 0",
+    "start": "open http://localhost:4000 && node src/sturdy-stitch.js"
   },
   "repository": {
     "type": "git",
@@ -20,7 +21,7 @@
   "homepage": "https://github.com/StevenACoffman/sturdy-stitch#readme",
   "dependencies": {
     "express": "^4.14.0",
-    "http-proxy-middleware": "^0.17.2"
+    "http-proxy-middleware": "^0.17.3"
   },
   "devDependencies": {
     "eslint": "^3.9.1",

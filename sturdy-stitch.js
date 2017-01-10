@@ -5,7 +5,7 @@ var app = express();
 app.use('/', proxy({target: 'https://firefly.jstor.org',
 	changeOrigin: true,
 	autoRewrite: true,
-    protocolRewrite: 'https',
+    protocolRewrite: 'http',
     secure: false,
 	cookieDomainRewrite: { 'localhost': 'firefly.jstor.org'},
     onProxyRes(proxyRes, req, res) {

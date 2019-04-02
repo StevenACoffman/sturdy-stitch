@@ -30,5 +30,5 @@
     "eslint-plugin-react": "^6.6.0",
     "eslint-plugin-standard": "^2.0.1"
   },
-  "eslintConfig": ".eslintrc.json"
+  "eslintConfig": ".eslintrc.js"
 }

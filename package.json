@@ -21,7 +21,7 @@
   "homepage": "https://github.com/StevenACoffman/sturdy-stitch#readme",
   "dependencies": {
     "express": "^4.14.0",
-    "http-proxy-middleware": "^0.17.3"
+    "http-proxy-middleware": "^0.19.1"
   },
   "devDependencies": {
     "eslint": "^3.9.1",
@@ -30,5 +30,5 @@
     "eslint-plugin-react": "^6.6.0",
     "eslint-plugin-standard": "^2.0.1"
   },
-  "eslintConfig": ".eslintrc.json"
+  "eslintConfig": ".eslintrc.js"
 }

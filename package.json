@@ -20,7 +20,7 @@
   },
   "homepage": "https://github.com/StevenACoffman/sturdy-stitch#readme",
   "dependencies": {
-    "express": "^4.22.1",
+    "express": "^5.2.1",
     "http-proxy-middleware": "^3.0.7"
   },
   "devDependencies": {
